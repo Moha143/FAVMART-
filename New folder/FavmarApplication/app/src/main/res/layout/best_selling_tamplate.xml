@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="150dp"
+    android:layout_height="200dp"
+    android:background="@drawable/card"
+    tools:ignore="MissingDefaultResource">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@drawable/cardt"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:paddingTop="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/card"
+            android:src="@drawable/apple"/>
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilorysemibold"
+            android:text=" Apple  "
+            android:textSize="18sp"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilorysemibold"
+                android:text="$1.50"
+                android:layout_marginRight="29dp"
+                android:textSize="16sp"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/black"
+                />
+            <ImageView
+                android:layout_marginTop="4dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/plusicons"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

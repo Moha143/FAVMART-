@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "favmart-company-project",
+  "private_key_id": "39e3f752bd7b30f884db4b612853a5fbebc74af5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDZMquqCuMk+4Vw\nBY8rkj4yqYs5gYmPqYEy11LxAZD2jv8JCg4BKYUBMYjISo1aVADWW0k7YTun6b8A\nRhNGXhhfsp4TgiN7M79E/SdJyDvmFyz+8m5uvm4jGC/0Dxp2VzaHQhb1gKCAVfr5\n5c0DQs2iChMRtKLZajvua87m+NwA6OoXSDSz2rJKVdI+RjgENsb4FL3ul+PvhUDO\nQh+yyjNkO6dM7HtL9/63brSrNCknKwTRHcfsSYGp3zs5q05waZuFBHNle3XyC1vc\naH6zQgKUxoeZDwLIky//itMZOLuUOQ9cuiQJXeYDCyhiOi5zg+M66GEZ4iiSTQVc\nH5PelS81AgMBAAECggEAAWPaqZo8s7gOpJoPtOCDsh/o7LKG+LAbMnlmyB/Aispb\nB5BY4GXk7Za6M77B3l7CZSVXr1dv3by+mgbyYpESmZhTWpoCQJc8oCy03JBS72o2\n486vVAyVFlWLmDjXUtCiRpsh+eIw9de05TISvv0Ywzb1OY1IxWWCwjb5Jx4kJlCp\nmsjgYEev5v3U5oMygP3aWJvfgxnm0vORWBKo2OBdj1/TEEPRmM8wJuQL2eI7LWoy\nDsLRgeKPW0G9tPW7b03aRSZlRJiNOk6nN3K+mcnWBDiZ8EKzRcSVqGZIkrA+yodR\n6+TLcIYT2WUWh0lfvnRGAEdHiWyFxjx+qLyL5iaCwQKBgQD5veCW4k+8xGzXOHJN\nCetD5DP1AuaPoKejDCQ0/BtL1e8DoRbidjBmIFX6qmHfREkRPyi/xzY+grr4qEL0\nCEj6yGv9Syvj/U8ama6bXHOP2VEHGoFbqTYAbrFC/W16qX8Wsjil149976/IlZ3I\nobh/5wof1RdlXfwCzNFqkZzM4QKBgQDepAVlFTEWBuV8c1NT/Az4FY4R6d+jqVgy\ndGrekOpUf7i1cFYZMb9w6QGcCYUAbvQYdi49m/M8BZ1gBuAq5ks+7+fwHcxUvi6U\nKlDMC12NIB1fQPITUNlA8zZvELHgJvDKaeagpcg8+0laz1XstZstcWaJRG4nTls/\nC+TlOn241QKBgEzGLWvVCLQ8IkWLab/7I6MMXVid2qket0otalgLhIysqLyR4goe\nUUSj/iqABHRxdpDhvLIwGKHg6H+WonaIsX6+7EvCtyxwa8f+pKnIIxJ+uSUY5dl6\nzEoXvVCdvfEueA5PHZEGEmuhqoVcUVQjOye+q+MbTATyfo2Rz3MWboChAoGABh8o\nbtEYWmyyHqvlHKgPizq8f02Y8p0Tab+9uITvjIc+gu6lz2eIxggCHVI9r/ddCtcl\nClihZYMaAqvtugA/DWn3TKjlF2drTHOlaRbe6aR6akYU4ecVMi39zyv8WBd6A3bJ\n+pzUVqjqKW8OA8YykBtQIHIbPUVwSNmA37SuBEkCgYEAryWBWFIetHyf2kR2iud2\nWZ59eHSNE8Q5Ipme0epQMrYJgTIOLNpzz59PQOIlplgzyeRLWwJA9mG/vTpwctar\ncnttEAz65Y4PWLqhO0fPiLG7dSzB9dMi3fKD+E0wV6ekUq4N4F30/qXNyWvkMx3u\ndJnEy8nNqS6GStwPn/ETqX8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbt2v@favmart-company-project.iam.gserviceaccount.com",
+  "client_id": "103759447276954653791",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbt2v%40favmart-company-project.iam.gserviceaccount.com"
+}

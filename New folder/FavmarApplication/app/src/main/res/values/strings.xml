@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Favmart</string>
+
+    <string name="welcome">Welcome to our Store</string>
+    <string name="get">get your groceries in as fast in one hour</string>
+    <string name="login">Logging</string>
+    <string name="login_account">Get your Fruits and vegetable with Favmart</string>
+    <string name="create_account">Create Account</string>
+    <string name="confirm">Phone Confirmation</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="invalid">Please Enter Your Name</string>
+    <string name="invalidEmail">Invalid Email</string>
+    <string name="invalidMobile">invalid Phone Number</string>
+    <string name="invalidpass">Please Enter 8 character</string>
+    <string name="invalidmatch">Password does not match</string>
+    <string name="emptaddress">Please Enter your Address</string>
+    <string name="new_meeesgae">New Message</string>
+    <string name="default_notification_channel_id">New Product</string>
+</resources>

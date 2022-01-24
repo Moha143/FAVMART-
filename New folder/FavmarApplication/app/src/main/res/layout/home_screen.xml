@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fruits  "
+            android:textSize="20sp"
+            android:textColor="@color/downriver"
+            android:fontFamily="@font/gilorysemibold"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="33dp"
+            />
+        <TextView
+            android:id="@+id/fruitsee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="maximize"
+            android:textSize="20sp"
+            android:textColor="@color/darkgreen"
+            android:fontFamily="@font/gilorysemibold"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="150dp"
+            />
+
+    </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_fruits_tamplate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            app:spanCount="1"
+            tools:listitem="@layout/fruits_tamplate"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vegetables"
+                android:textSize="20sp"
+                android:textColor="@color/downriver"
+                android:fontFamily="@font/gilorysemibold"
+                android:layout_marginTop="21dp"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/vegetablesee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="maximize"
+                android:textSize="20sp"
+                android:textColor="@color/darkgreen"
+                android:fontFamily="@font/gilorysemibold"
+                android:layout_marginTop="21dp"
+                android:layout_marginLeft="150dp"
+                />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_vegetable_tamplate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="20dp"
+            app:spanCount="2"
+            android:orientation="horizontal"
+           tools:listitem="@layout/vegetable_tamplate"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    </LinearLayout>
+
+</ScrollView>

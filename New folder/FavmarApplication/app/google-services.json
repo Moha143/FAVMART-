@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "831533112875",
+    "project_id": "favmart-company-project",
+    "storage_bucket": "favmart-company-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831533112875:android:f75b50ba4ff51acde3546e",
+        "android_client_info": {
+          "package_name": "com.favmartcompanny.favmarapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831533112875-ro8b7u3osp1un7eecbvrks12ce87o9u7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.favmartcompanny.favmarapplication",
+            "certificate_hash": "b31e1332554b1620aeac751f482a9010ca02e1bb"
+          }
+        },
+        {
+          "client_id": "831533112875-5s8m3be2b6pvq5g6vurboe1ekiqf9vl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT1vjzA12hBvimkjYpcLrvIozL0Z6eMT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831533112875-5s8m3be2b6pvq5g6vurboe1ekiqf9vl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

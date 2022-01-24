@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:visible="true"
+        android:id="@+id/action_shop"
+        android:icon="@drawable/shop1"
+        android:title="Shop"/>
+    <item
+        android:fontFamily="@font/gilorysemibold"
+        android:id="@+id/action_mycart"
+        android:icon="@drawable/cart1"
+        android:title="Mycart"
+        android:visible="true" />
+    <item
+        android:visible="true"
+        android:fontFamily="@font/gilorysemibold"
+        android:id="@+id/action_favourite"
+        android:icon="@drawable/bookmark1"
+        android:title="favourite" />
+    <item
+        android:fontFamily="@font/gilorysemibold"
+        android:visible="true"
+        android:id="@+id/action_profile"
+        android:icon="@drawable/user1"
+        android:title="Profile"/>
+</menu>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="150dp"
+    android:layout_height="210dp"
+    android:background="@drawable/card"
+    tools:ignore="MissingDefaultResource">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@drawable/cardt"
+        android:id="@+id/popularfruitLayout"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/fruits_tamplate_image"
+            android:paddingTop="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:background="@drawable/card"
+            android:src="@drawable/banana"/>
+        <TextView
+            android:id="@+id/fruits_tamplate_name"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilorysemibold"
+            android:text="Organic Banana"
+            android:textSize="17sp"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="10dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/gilorymed"
+                android:text="1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_marginLeft="7dp"
+                android:id="@+id/fruits_tamplate_unity_name"
+                android:layout_width="45dp"
+                android:textStyle="bold"
+                android:layout_height="15dp"
+                android:fontFamily="@font/gilorymed"
+                android:text="Package"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="10.5dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+
+                android:fontFamily="@font/gilorysemibold"
+                android:text="$"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/fruits_tamplate_price"
+                android:layout_width="35dp"
+                android:textStyle="bold"
+                android:layout_height="20dp"
+
+                android:layout_marginRight="29dp"
+                android:fontFamily="@font/gilorysemibold"
+                android:text="1.50"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/fruits_tamplate_plusicons"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/plusicons" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

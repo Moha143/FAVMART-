@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#292E2D</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="whitess">#FBEFEF</color>
+    <color name="btnlogin">#F57C00</color>
+    <color name="textgreen">#2CC632</color>
+    <color name="black">#000000</color>
+    <color name="green">#03D19D</color>
+    <color name="darkgreen">#0A7E61</color>
+    <color name="downriver">#1D3359</color>
+    <color name="alto">#D1CECE</color>
+    <color name="my_orders_background_color">#F8F8F8</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="blue">#038BF7</color>
+</resources>

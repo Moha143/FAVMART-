@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/cardt"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="bottom"
+    android:layout_marginTop="20dp"
+
+  android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginBottom="12dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+
+        android:id="@+id/rdialog"
+        android:orientation="vertical"
+        android:background="@drawable/cardt"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+            <TextView
+                android:id="@+id/txtpaymentname"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/gilorymed"
+                android:text="Payment"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+           android:layout_toEndOf="@+id/txtpaymentname"
+            android:id="@+id/dialogcancel"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_cancel_24"
+            android:layout_toRightOf="@+id/txtpaymentname" />
+        <View
+            android:id="@+id/view1"
+            android:layout_below="@+id/txtpaymentname"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/alto"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_below="@+id/view1"
+            android:id="@+id/txtpaymentdelivery"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/gilorymed"
+            android:text="Delivery"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <View
+            android:id="@+id/viewh1"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/txtpaymentdelivery"
+            android:layout_below="@+id/view1"
+            android:layout_width="0.7dp"
+            android:layout_height="54dp"
+            android:background="@color/alto"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtfree"
+            android:layout_marginLeft="49dp"
+            android:layout_below="@+id/view1"
+            android:layout_toRightOf="@+id/viewh1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/gilorysemibold"
+            android:text="Free"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <View
+            android:id="@+id/view2"
+            android:layout_below="@+id/txtfree"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/alto"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+            <TextView
+                android:layout_below="@+id/view2"
+                android:id="@+id/txtdiscount"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/gilorymed"
+                android:text="Discount"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        <View
+            android:id="@+id/viewh4"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/txtdiscount"
+            android:layout_below="@+id/view2"
+            android:layout_width="0.7dp"
+            android:layout_height="54dp"
+            android:background="@color/alto"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/percent"
+            android:layout_marginLeft="49dp"
+            android:layout_below="@+id/view2"
+            android:layout_toRightOf="@+id/txtdiscount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:fontFamily="@font/gilorysemibold"
+            android:text="5%"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <View
+            android:id="@+id/view3"
+            android:layout_below="@+id/txtdiscount"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/alto"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_below="@+id/view3"
+            android:id="@+id/txtpaymenttotal"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/gilorymed"
+            android:text="Total Cost"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/txttotaldollar"
+            android:layout_marginLeft="29dp"
+            android:layout_below="@+id/view3"
+            android:layout_toRightOf="@+id/txtpaymenttotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:fontFamily="@font/gilorysemibold"
+            android:text="$"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/txttotalcost"
+            android:layout_below="@+id/view3"
+            android:layout_toRightOf="@+id/txttotaldollar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:fontFamily="@font/gilorysemibold"
+            android:text="120"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+        <View
+            android:id="@+id/view4"
+            android:layout_below="@+id/txttotalcost"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/alto"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+        <RelativeLayout
+
+           android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:background="@drawable/btnsmall"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btnpay"
+
+                android:background="@android:color/transparent"
+                android:text="pay"
+                android:textColor="@color/whiteTextColor"
+                android:textSize="27sp"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

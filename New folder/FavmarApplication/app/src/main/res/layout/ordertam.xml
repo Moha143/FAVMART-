@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/fruit_img_in_order"
+                android:layout_width="60dp"
+                android:src="@drawable/apple"
+                android:layout_height="60dp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:paddingLeft="10dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/fruit_price_in_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.00"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/fruit_name_in_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fruit  Name"
+                android:layout_marginLeft="27dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/gilorymed"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingLeft="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/gilorymed"
+                    android:text="1"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:id="@+id/fruit_unit_in_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/gilorymed"
+                    android:text="Package"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total"
+                    android:paddingLeft="0dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:paddingLeft="10dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/fruit_total_in_order"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.00"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+
+            android:layout_marginLeft="10dp"
+            android:id="@+id/fruit_cancel_in_mycart"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_cancel_24"
+
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/divder"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:background="@color/alto"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

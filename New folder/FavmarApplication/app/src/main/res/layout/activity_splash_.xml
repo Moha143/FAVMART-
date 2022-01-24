@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app5"
+    tools:context=".Splash_Activity">
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:fontFamily="@font/gilorysemibold"
+        android:textColor="@color/whitess"
+        android:layout_marginTop="350dp"
+        android:id="@+id/message"
+        android:gravity="center"
+        android:text="@string/welcome"
+        />
+
+
+    <TextView
+
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/whiteTextColor"
+        android:id="@+id/sub"
+        android:fontFamily="@font/gilorymed"
+
+        android:gravity="center"
+        android:text="@string/get"
+        android:textSize="20sp"
+        android:layout_below="@id/message"
+
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/sub"
+        android:id="@+id/Relative_login"
+        >
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_get_start"
+            android:background="@android:color/transparent"
+            android:text="Get Started"
+            android:fontFamily="@font/gilorysemibold"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/whitess"
+            />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
